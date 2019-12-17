@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Developer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="logo">
+					<a href="#">Logo</a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Acerca</a></li>
+						<li><a href="#">Servicios</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>			
+		</header>
+		<div class="container">
+		<h1>Somos los mejores</h1>
+		<p>Visitanos</p>
+		</div>
+	</div>
+	<!--Section-->
+	<!--section class="seccion"-->
+		<div class="caja">
+			<div class="cajas">
+				<h3>Projectos PHP</h3>
+				<div class="image">
+					<img src="01.jpg" class="image">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum</p>
+				</div>
+				<footer>
+					<button class="btn">Proyectos</button>
+				</footer>
+			</div>
+			<div class="cajas">
+				<h3>Proyectos JAVA</h3>
+				<div class="image">
+					<img src="01.jpg" class="image">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum</p>
+				</div>
+				<footer>
+					<button class="btn">Proyectos</button>
+				</footer>
+			</div>
+			<div class="cajas">
+				<h3>Proyectos HTML & CSS</h3>
+				<div class="image">
+					<img src="01.jpg" class="image">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum</p>
+				</div>
+				<footer>
+					<button class="btn">Proyectos</button>
+				</footer>	
+			</div>
+		</div>
+	<!--/section-->
+	<script>
+		//function mostrarMensaje(){
+		//	document.write("cuidado<br>");
+		//	document.write("Ingrese su documento correctamente<br>");
+		//}
+		//mostrarMensaje();
+		/*function mostrarValores(x1,x2)
+		{
+			var inicio;
+			for(inicio=x1; inicio<=x2;inicio++);
+			{
+				document.write(inicio+'');
+			}
+		}
+
+		var valor1, valor2;
+		valor1 = prompt("Ingrese valor inferior:");
+		valor1 = parseInt(valor1);
+		valor2 = prompt("Ingrese valor superior:");
+		valor2 = parseInt(valor2);
+		mostrarValores(valor1,valor2);*/
+
+		/*function saludar(nombre,edad)
+		{
+			this.nombre = nombre;
+			this.edad = edad;
+			document.write("Hola mi nombre es: " +this.nombre+ " y mi edad es: " +this.edad+ "años.");
+		}
+		saludar("irvin", 30);*/
+		function Info(nombre,edad)
+		{
+			this.nombre = nombre;
+			this.edad = edad;
+		}
+		var valor1, valor2;
+		valor1 = prompt("Ingrese su nombre: ");
+		valor2 = prompt("Ingrese su edad: ");
+		Info(valor1,valor2);
+	</script>
+</body>
+</html>
